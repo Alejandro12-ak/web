@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Login</title>
+ <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+ <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<header class="header">
+     <a href="#" class="logo">Logo</a>
+     
+     <nav class="navbar">
+      <a href="/Proyecto /Inicio/index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#">Service</a>
+      <a href="#">Contact</a>
+      <button class="btnLogin-popup">Login</button>
+     </nav>
+</header>
+<section class="section">
+ <div class="warped">
+  <span class="icon-close">
+     <i class='bx bxs-x-circle'></i>
+  </span>
+    <div class="logreg-box">
+     <!--Login form-->
+       <div class="form-box login">
+         <div class="logreg-title">
+           <h2>Login</h2>
+             <p>Please login to use the platform</p>
+         </div>
+         
+         <form action="#">
+            <div class="input-box">
+                <span class="icon"><i class='bx bxs-envelope'></i></span>
+               <input type="email" required>
+               <label>Email</label>
+            </div>
+           <div class="input-box">
+                <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+               <input type="password" required>
+               <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+             <label><input type="checkbox">Remember me</label>
+             <a href="#">Forgot password</a>
+            </div>
+            <button class="btn" type="submit">Login</button>
+            
+            <div class="logreg-link">
+             <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+            </div>
+         </form>
+       </div>
+       <!--Register-->
+            <div class="form-box register">
+         <div class="logreg-title">
+           <h2>Register</h2>
+             <p>Please provide the following to verify your identity</p>
+         </div>
+         <form action="#">
+          
+          <div class="input-box">
+                <span class="icon"><i class='bx bxs-user' ></i></span>
+               <input type="text" required>
+               <label>Full Name</label>
+            </div>
+          
+            <div class="input-box">
+                <span class="icon"><i class='bx bxs-envelope'></i></span>
+               <input type="email" required>
+               <label>Email</label>
+            </div>
+           <div class="input-box">
+                <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+               <input type="password" required>
+               <label>Password</label>
+            </div>
+            <div class="remember-forgot">
+             <label><input type="checkbox">I agree to the terms  & conditions</label>
+            </div>
+            <button class="btn" type="submit">Register</button>
+            
+            <div class="logreg-link">
+             <p>Don't have an account? <a href="#" class="login-link">Login</a></p>
+            </div>
+         </form>
+       </div>
+       
+       
+    </div>
+    <div class="media-options">
+     <a href="#">
+      <i class='bx bxl-google'></i>
+      <span>Login with Google</span>
+      </a>
+      <a href="#">
+       <i class='bx bxl-facebook-circle' ></i>
+       <span>Login with Facebook</span>
+       </a>
+    </div>
+ </div>
+</section>
+<body>
+<script src="/Proyecto /login/index.js"></script>
+</body>
+
+</html>
